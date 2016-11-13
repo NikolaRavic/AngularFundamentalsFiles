@@ -6,11 +6,11 @@ eventsApp.filter('durations',function () {
     return function (duration) {
         switch(duration){
             case 1:
-                return:"Half Hour";
+                return "Half Hour";
             case 2:
-                return:"1 Hour";
+                return "1 Hour";
             case 3:
-                return:"Half Day";
+                return "Half Day";
             case 4:
                 return "Full Days";
         }

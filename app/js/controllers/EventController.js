@@ -19,7 +19,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'Directives Masterclass',
                     creatorName: 'Bob Smith',
-                    duration: '1 hr',
+                    duration: 1,
                     level: 'Advanced',
                     abstract: 'In this session you will learn the ins and outs of directives.',
                     upVoteCount: 0
@@ -28,7 +28,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'Scopes for fun and profit',
                     creatorName: 'Nikola Ravic',
-                    duration: '1 hr',
+                    duration: 2,
                     level: 'Beginner',
                     abstract: 'In this session you will learn the ins and outs of directives.',
                     upVoteCount: 0
@@ -36,7 +36,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'Well Behaved Controllers',
                     creatorName: 'Snovak',
-                    duration: '1 hr',
+                    duration: 3,
                     level: 'Intermediate',
                     abstract: 'In this session you will learn the ins and outs of directives.',
                     upVoteCount: 0
